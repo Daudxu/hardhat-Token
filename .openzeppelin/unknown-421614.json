@@ -1,0 +1,60 @@
+{
+  "manifestVersion": "3.2",
+  "admin": {
+    "address": "0xdd38CF1901D2B91E6E71C94D68fa80f5975B7DC3",
+    "txHash": "0x8f579de35e0b33df8a8216d91172e4e85d4ae96a8bb283898c01a0326f62d58a"
+  },
+  "proxies": [
+    {
+      "address": "0x1f4eae44D0f0e3C578f349dF225caE431e113C94",
+      "txHash": "0xe0722937399b28073f6c73921b46b04a16044acd39c5652f19ac0f875c5c2acb",
+      "kind": "transparent"
+    }
+  ],
+  "impls": {
+    "e4b4178355411d6536edb7e909eaae4c9287cb2492067dc0c8951d1dd31ee437": {
+      "address": "0x7A636558e3F2123Bde6878Fe86337f0d9F3fb786",
+      "txHash": "0xd6e72810583f8d075b97bb26abc62ecce6ce283d6cb583e3f4551764aab17bad",
+      "layout": {
+        "storage": [
+          {
+            "label": "_nextTokenId",
+            "offset": 0,
+            "slot": "0",
+            "type": "t_uint256",
+            "contract": "DanToken",
+            "src": "contracts\\DanToken.sol:10"
+          }
+        ],
+        "types": {
+          "t_uint256": {
+            "label": "uint256",
+            "numberOfBytes": "32"
+          }
+        }
+      }
+    },
+    "d49095d6729aba98c3dd59aaafafa67ea981d7a6404e024e6b129913965475f9": {
+      "address": "0x5b6C32Bb07A0581dA72D8386ABB5847187b20f7D",
+      "txHash": "0x80a424d7b9987ba8f4e91083cc860fa6d5fd244402610c9b096ef0eb5a29f276",
+      "layout": {
+        "storage": [
+          {
+            "label": "_nextTokenId",
+            "offset": 0,
+            "slot": "0",
+            "type": "t_uint256",
+            "contract": "DanTokenV2",
+            "src": "contracts\\DanTokenV2.sol:10"
+          }
+        ],
+        "types": {
+          "t_uint256": {
+            "label": "uint256",
+            "numberOfBytes": "32"
+          }
+        }
+      }
+    }
+  }
+}
