@@ -4,8 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "compile:arbitrumSepolia": "npx hardhat compile --network arbitrumSepolia", 
-    "compile:test": "npx hardhat compile --network test", 
+    "compile:arbitrumSepolia": "npx hardhat compile --network arbitrumSepolia",
+    "compile:test": "npx hardhat compile --network test",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -21,7 +21,7 @@
   "homepage": "https://github.com/t4sk/hello-oz-upgradeble#readme",
   "devDependencies": {
     "@nomiclabs/hardhat-ethers": "^2.1.0",
-    "@nomiclabs/hardhat-etherscan": "^2.1.8",
+    "@nomiclabs/hardhat-etherscan": "^3.1.8",
     "@nomiclabs/hardhat-waffle": "^2.0.3",
     "@openzeppelin/hardhat-upgrades": "^1.12.0",
     "chai": "^4.3.6",
